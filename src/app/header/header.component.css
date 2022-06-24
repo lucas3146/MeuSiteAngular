@@ -4,6 +4,35 @@
     justify-content: space-between;
 }
 
+.acesso {
+    display: flex;
+}
+
+.acesso>button {
+    height: 2.4rem;
+    width: 2.4rem;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid black;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+
+.acesso>button:hover {
+    background-color: rgba(202, 202, 202, 0.452);
+}
+
+.acesso>button>img {
+    height: 100%;
+    margin-left: -5px;
+}
+
+#pesquisa {
+    height: 2rem;
+    width: 12rem;
+    font-size: 1rem;
+}
+
 .logo {
     font-size: 26px;
     font-weight: bold;

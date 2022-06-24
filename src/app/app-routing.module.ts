@@ -4,13 +4,9 @@ import { HomeComponent } from './home/home.component';
 import { JogosComponent } from './jogos/jogos.component';
 
 const routes: Routes = [
+
   {
-    path:'',
-    component: HomeComponent
-  },
- 
-  {
-    path:'jogos',
+    path: 'jogos',
     component: JogosComponent
   }
 

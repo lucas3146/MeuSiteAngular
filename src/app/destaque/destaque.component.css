@@ -1,0 +1,38 @@
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+
+.card-destaque {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.048);
+    border-radius: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.377);
+}
+
+.card-destaque>img {
+    margin: 15px auto;
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+}
+
+.card-destaque>p {
+    margin: 0 auto;
+}
+
+.card-destaque>button {
+    height: 3em;
+    width: 75%;
+    margin: 10px auto;
+    background-image: linear-gradient(to right, rgb(0, 195, 255), rgb(0, 151, 197));
+    border: none;
+    border-radius: 1rem;
+    color: white;
+    cursor: pointer;
+}

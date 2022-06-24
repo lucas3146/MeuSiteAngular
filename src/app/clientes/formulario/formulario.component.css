@@ -1,0 +1,77 @@
+.form-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 800px;
+    width: 100%;
+}
+
+.form-principal>h1 {
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2em;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.252);
+}
+
+
+#formulario {
+    height: 680px;
+    width: 600px;
+    background-color: rgb(0, 140, 255);
+    text-align: center;
+    margin: auto;
+    border-radius: 2em;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.438);
+}
+
+input {
+    margin: 30px
+}
+
+#nome {
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+    font-size: 1.5em;
+}
+
+label {
+    font-size: 2em;
+}
+
+.form-input {
+    margin-right: 40px;
+}
+
+#form-check {
+    margin-top: 15px;
+}
+
+#observacao {
+    width: 300px;
+    font-size: 20px;
+}
+
+#btnSalvar {
+    height: 60px;
+    width: 120px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#btnSalvar:hover {
+    background-image: linear-gradient(to right, rgb(86, 207, 255), rgb(0, 166, 255));
+    border: 4px solid rgb(255, 255, 255);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.703);
+}
+
+#cancel {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#cancel:hover {
+    text-decoration: underline;
+}

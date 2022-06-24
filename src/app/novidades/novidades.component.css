@@ -1,0 +1,79 @@
+.novidades {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.novidade {
+    margin: 15px 0px;
+    background-color: #009CCC;
+    width: 45%;
+    padding: 20px;
+    border-radius: 1rem;
+}
+
+.novidade>h2 {
+    text-transform: uppercase;
+}
+
+.novidade a {
+    text-decoration: none;
+    color: black;
+}
+
+.card-novidade {
+    padding: 10px;
+    border-radius: 1rem;
+}
+
+.card-novidade:hover {
+    background-color: rgba(0, 0, 0, 0.151);
+
+}
+
+.novidade a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.galeria {
+    margin: 15px 0px;
+    background-color: #009CCC;
+    width: 45%;
+    padding: 20px;
+    border-radius: 1rem;
+}
+
+.galeria>div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.galeria>h2 {
+    text-transform: uppercase;
+}
+
+.jogos {
+    width: 45%;
+    background-color: rgba(0, 0, 0, 0.089);
+    padding: 10px;
+    border-radius: 1rem;
+
+}
+
+.jogos>p {
+    padding: 10px;
+    width: 90%;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.jogos>p:hover {
+    background-color: rgba(0, 0, 0, 0.151);
+
+}
+
+.jogos>p a {
+    text-decoration: none;
+    color: black;
+}

@@ -9,10 +9,14 @@ import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
 import { JogosComponent } from './jogos/jogos.component';
 import { ClienteComponent } from './cliente/cliente.component';
+import{ReactiveFormsModule}from'@angular/forms';
 
 // Import de api
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatButtonModule} from '@angular/material/button';
+import { FormularioComponent } from './clientes/formulario/formulario.component';
+import { DestaqueComponent } from './destaque/destaque.component';
+import { NovidadesComponent } from './novidades/novidades.component';
 
 @NgModule({
   declarations: [
@@ -21,14 +25,18 @@ import {MatButtonModule} from '@angular/material/button';
     HomeComponent,
     FooterComponent,
     JogosComponent,
-    ClienteComponent
+    ClienteComponent,
+    FormularioComponent,
+    DestaqueComponent,
+    NovidadesComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatToolbarModule,
-    MatButtonModule
+    MatButtonModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
